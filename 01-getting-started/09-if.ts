@@ -2,12 +2,12 @@ let condition: boolean | string | number
 let message: string
 
 // The following statements are all truthy
-condition = true
+//condition = true
 // condition = "foo"
 // condition = 42
 
 // The following statements are all falsy
-// condition = false
+ condition = false
 // condition = ""
 // condition = 0
 

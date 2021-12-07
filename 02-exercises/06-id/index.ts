@@ -11,11 +11,13 @@
 // definitions, please pay attention to the help VS Code is
 // trying to give you in that respect.
 
+import { v4 as uuidv4 } from 'uuid';
+
 /**
  * Returns a UUID of version 4.
  */
 const createId = (): string => {
-    throw new Error("Not implemented")
+    return uuidv4()
 }
 
 const id = createId()

@@ -18,7 +18,7 @@ const simulateWorkAndReturn = async (value: number): Promise<number> => {
  * Implement this function to add the values returned from the two promises.
  */
 const add = async (x: Promise<number>, y: Promise<number>): Promise<number> => {
-    throw new Error("Not implemented")
+    return await x + await y
 }
 
 // We need to wrap the code in self invoking function
